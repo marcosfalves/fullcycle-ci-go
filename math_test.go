@@ -55,3 +55,12 @@ func TestDiv(t *testing.T) {
 		t.Errorf("Result is invalid: Result %d. Expected: %d", result, 50)
 	}
 }
+
+func TestAvg(t *testing.T) {
+
+	result := avg(50, 75, 100)
+
+	if result != 75 {
+		t.Errorf("Result is invalid: Result %d. Expected: %d", result, 75)
+	}
+}

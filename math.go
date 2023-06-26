@@ -29,3 +29,7 @@ func sumY(a int, b int) int {
 func div(a int, b int) int {
 	return a / b
 }
+
+func avg(a int, b int, c int) int {
+	return (a + b + c) / 3
+}
