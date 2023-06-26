@@ -21,3 +21,11 @@ func times(a int, b int) int {
 func sumX(a int, b int) int {
 	return a + b + a
 }
+
+func sumY(a int, b int) int {
+	return a + b + b
+}
+
+func div(a int, b int) int {
+	return a / b
+}
